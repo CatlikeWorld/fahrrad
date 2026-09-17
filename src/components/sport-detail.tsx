@@ -114,7 +114,7 @@ export default function SportDetail({ sport }: { sport: Sport }) {
           {/* header */}
           <div className="mb-7">
             <h2 className="text-4xl font-medium tracking-tight sm:text-5xl">
-              {sport.bikes.length}
+              {sport.bikes.length}{" "}
               {sport.bikes.length !== 1 ? "Fahrräder" : "Fahrrad"}
             </h2>
 
