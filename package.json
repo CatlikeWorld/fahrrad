@@ -10,7 +10,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:pages": "node scripts/build-pages.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.46.0",
